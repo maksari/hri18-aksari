@@ -1,0 +1,374 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{26}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Butchibabu, Sparano-Huiban, Sonenberg, and
+  Shah}{Butchibabu et~al\mbox{.}}{2016}]%
+        {butchibabu2016implicit}
+\bibfield{author}{\bibinfo{person}{Abhizna Butchibabu},
+  \bibinfo{person}{Christopher Sparano-Huiban}, \bibinfo{person}{Liz
+  Sonenberg}, {and} \bibinfo{person}{Julie Shah}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Implicit coordination strategies for effective team
+  communication}.
+\newblock \bibinfo{journal}{{\em Human Factors: The Journal of the Human
+  Factors and Ergonomics Society\/}} \bibinfo{volume}{58}, \bibinfo{number}{4}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{595--610}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Espinosa, Lerch, Kraut, Salas, and
+  Fiore}{Espinosa et~al\mbox{.}}{2004}]%
+        {espinosa2004explicit}
+\bibfield{author}{\bibinfo{person}{Alberto Espinosa}, \bibinfo{person}{F~Javier
+  Lerch}, \bibinfo{person}{Robert~E Kraut}, \bibinfo{person}{Eduardo Salas},
+  {and} \bibinfo{person}{Stephen~M Fiore}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Explicit vs. implicit coordination mechanisms and
+  task dependencies: one size does not fit all}.
+\newblock \bibinfo{journal}{{\em Team cognition: understanding the factors that
+  drive process and performance. American Psychological Association,
+  Washington, DC\/}} (\bibinfo{year}{2004}), \bibinfo{pages}{107--129}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goetz, Kiesler, and Powers}{Goetz
+  et~al\mbox{.}}{2003}]%
+        {goetz2003matching}
+\bibfield{author}{\bibinfo{person}{Jennifer Goetz}, \bibinfo{person}{Sara
+  Kiesler}, {and} \bibinfo{person}{Aaron Powers}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Matching robot appearance and behavior to tasks to
+  improve human-robot cooperation}. In \bibinfo{booktitle}{{\em Robot and Human
+  Interactive Communication, 2003. Proceedings. ROMAN 2003. The 12th IEEE
+  International Workshop on}}. Ieee, \bibinfo{pages}{55--60}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gombolay, Gutierrez, Clarke, Sturla, and
+  Shah}{Gombolay et~al\mbox{.}}{2015}]%
+        {gombolay2014decision}
+\bibfield{author}{\bibinfo{person}{Matthew~C Gombolay},
+  \bibinfo{person}{Reymundo~A Gutierrez}, \bibinfo{person}{Shanelle~G Clarke},
+  \bibinfo{person}{Giancarlo~F Sturla}, {and} \bibinfo{person}{Julie~A Shah}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Decision-making authority, team efficiency and
+  human worker satisfaction in mixed human--robot teams}.
+\newblock \bibinfo{journal}{{\em Autonomous Robots\/}} \bibinfo{volume}{39},
+  \bibinfo{number}{3} (\bibinfo{year}{2015}), \bibinfo{pages}{293--312}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hackman and Oldham}{Hackman and
+  Oldham}{1976}]%
+        {hackman1976motivation}
+\bibfield{author}{\bibinfo{person}{J~Richard Hackman} {and}
+  \bibinfo{person}{Greg~R Oldham}.} \bibinfo{year}{1976}\natexlab{}.
+\newblock \showarticletitle{Motivation through the design of work: Test of a
+  theory}.
+\newblock \bibinfo{journal}{{\em Organizational behavior and human
+  performance\/}} \bibinfo{volume}{16}, \bibinfo{number}{2}
+  (\bibinfo{year}{1976}), \bibinfo{pages}{250--279}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hinds, Roberts, and Jones}{Hinds
+  et~al\mbox{.}}{2004}]%
+        {hinds2004whose}
+\bibfield{author}{\bibinfo{person}{Pamela~J Hinds}, \bibinfo{person}{Teresa~L
+  Roberts}, {and} \bibinfo{person}{Hank Jones}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Whose job is it anyway? A study of human-robot
+  interaction in a collaborative task}.
+\newblock \bibinfo{journal}{{\em Human-Computer Interaction\/}}
+  \bibinfo{volume}{19}, \bibinfo{number}{1} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{151--181}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoffman and Breazeal}{Hoffman and
+  Breazeal}{2007}]%
+        {hoffman2007effects}
+\bibfield{author}{\bibinfo{person}{Guy Hoffman} {and} \bibinfo{person}{Cynthia
+  Breazeal}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Effects of anticipatory action on human-robot
+  teamwork efficiency, fluency, and perception of team}. In
+  \bibinfo{booktitle}{{\em Proceedings of the ACM/IEEE international conference
+  on Human-robot interaction}}. ACM, \bibinfo{pages}{1--8}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hsieh and Chao}{Hsieh and Chao}{2004}]%
+        {hsieh2004reassessment}
+\bibfield{author}{\bibinfo{person}{An-Tien Hsieh} {and} \bibinfo{person}{Hui-Yu
+  Chao}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{A reassessment of the relationship between job
+  specialization, job rotation and job burnout: example of Taiwan's
+  high-technology industry}.
+\newblock \bibinfo{journal}{{\em The International Journal of Human Resource
+  Management\/}} \bibinfo{volume}{15}, \bibinfo{number}{6}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{1108--1123}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Cakmak, and Mutlu}{Huang
+  et~al\mbox{.}}{2015}]%
+        {huang2015adaptive}
+\bibfield{author}{\bibinfo{person}{Chien-Ming Huang}, \bibinfo{person}{Maya
+  Cakmak}, {and} \bibinfo{person}{Bilge Mutlu}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Adaptive Coordination Strategies for Human-Robot
+  Handovers.}. In \bibinfo{booktitle}{{\em Robotics: Science and Systems}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jarvenpaa and Ives}{Jarvenpaa and
+  Ives}{1994}]%
+        {jarvenpaa1994global}
+\bibfield{author}{\bibinfo{person}{Sirkka~L Jarvenpaa} {and}
+  \bibinfo{person}{Blake Ives}.} \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{The global network organization of the future:
+  Information management opportunities and challenges}.
+\newblock \bibinfo{journal}{{\em Journal of management information systems\/}}
+  \bibinfo{volume}{10}, \bibinfo{number}{4} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{25--57}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Johnson, Bradshaw, Feltovich, Jonker, van
+  Riemsdijk, and Sierhuis}{Johnson et~al\mbox{.}}{2012}]%
+        {johnson2012autonomy}
+\bibfield{author}{\bibinfo{person}{Matthew Johnson}, \bibinfo{person}{Jeffrey~M
+  Bradshaw}, \bibinfo{person}{Paul Feltovich}, \bibinfo{person}{Catholijn
+  Jonker}, \bibinfo{person}{Birna van Riemsdijk}, {and}
+  \bibinfo{person}{Maarten Sierhuis}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Autonomy and interdependence in human-agent-robot
+  teams}.
+\newblock \bibinfo{journal}{{\em IEEE Intelligent Systems\/}}
+  \bibinfo{volume}{27}, \bibinfo{number}{2} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{43--51}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Katz-Navon and Erez}{Katz-Navon and
+  Erez}{2005}]%
+        {katz2005collective}
+\bibfield{author}{\bibinfo{person}{Tal~Y Katz-Navon} {and}
+  \bibinfo{person}{Miriam Erez}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{When collective-and self-efficacy affect team
+  performance: The role of task interdependence}.
+\newblock \bibinfo{journal}{{\em Small Group Research\/}} \bibinfo{volume}{36},
+  \bibinfo{number}{4} (\bibinfo{year}{2005}), \bibinfo{pages}{437--465}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kiggundu}{Kiggundu}{1983}]%
+        {kiggundu1983task}
+\bibfield{author}{\bibinfo{person}{Moses~N Kiggundu}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{Task interdependence and job design: Test of a
+  theory}.
+\newblock \bibinfo{journal}{{\em Organizational behavior and human
+  performance\/}} \bibinfo{volume}{31}, \bibinfo{number}{2}
+  (\bibinfo{year}{1983}), \bibinfo{pages}{145--172}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Langfred}{Langfred}{2005}]%
+        {langfred2005autonomy}
+\bibfield{author}{\bibinfo{person}{Claus~W Langfred}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Autonomy and performance in teams: The multilevel
+  moderating effect of task interdependence}.
+\newblock \bibinfo{journal}{{\em Journal of management\/}}
+  \bibinfo{volume}{31}, \bibinfo{number}{4} (\bibinfo{year}{2005}),
+  \bibinfo{pages}{513--529}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liden, Wayne, and Bradway}{Liden
+  et~al\mbox{.}}{1997}]%
+        {liden1997task}
+\bibfield{author}{\bibinfo{person}{Robert~C Liden}, \bibinfo{person}{Sandy~J
+  Wayne}, {and} \bibinfo{person}{Lisa~K Bradway}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Task interdependence as a moderator of the relation
+  between group control and performance}.
+\newblock \bibinfo{journal}{{\em Human Relations\/}} \bibinfo{volume}{50},
+  \bibinfo{number}{2} (\bibinfo{year}{1997}), \bibinfo{pages}{169--181}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nass, Fogg, and Moon}{Nass
+  et~al\mbox{.}}{1996}]%
+        {nass1996can}
+\bibfield{author}{\bibinfo{person}{Clifford Nass}, \bibinfo{person}{BJ Fogg},
+  {and} \bibinfo{person}{Youngme Moon}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Can computers be teammates?}
+\newblock \bibinfo{journal}{{\em International Journal of Human-Computer
+  Studies\/}} \bibinfo{volume}{45}, \bibinfo{number}{6} (\bibinfo{year}{1996}),
+  \bibinfo{pages}{669--678}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nikolaidis and Shah}{Nikolaidis and
+  Shah}{2012}]%
+        {nikolaidis2012human}
+\bibfield{author}{\bibinfo{person}{Stefanos Nikolaidis} {and}
+  \bibinfo{person}{Julie Shah}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Human-robot teaming using shared mental models}.
+\newblock \bibinfo{journal}{{\em ACM/IEEE HRI\/}} (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nikolaidis and Shah}{Nikolaidis and
+  Shah}{2013}]%
+        {nikolaidis2013human}
+\bibfield{author}{\bibinfo{person}{Stefanos Nikolaidis} {and}
+  \bibinfo{person}{Julie Shah}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Human-robot cross-training: computational
+  formulation, modeling and evaluation of a human team training strategy}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 8th ACM/IEEE international
+  conference on Human-robot interaction}}. IEEE Press, \bibinfo{pages}{33--40}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nomura and Takagi}{Nomura and Takagi}{2011}]%
+        {nomura2011exploring}
+\bibfield{author}{\bibinfo{person}{Tatsuya Nomura} {and}
+  \bibinfo{person}{Satoru Takagi}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Exploring effects of educational backgrounds and
+  gender in human-robot interaction}. In \bibinfo{booktitle}{{\em User science
+  and engineering (i-user), 2011 international conference on}}. IEEE,
+  \bibinfo{pages}{24--29}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Peshkin and Colgate}{Peshkin and
+  Colgate}{1999}]%
+        {peshkin1999cobots}
+\bibfield{author}{\bibinfo{person}{Michael Peshkin} {and}
+  \bibinfo{person}{J~Edward Colgate}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Cobots}.
+\newblock \bibinfo{journal}{{\em Industrial Robot: An International Journal\/}}
+  \bibinfo{volume}{26}, \bibinfo{number}{5} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{335--341}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schermerhorn, Scheutz, and
+  Crowell}{Schermerhorn et~al\mbox{.}}{2008}]%
+        {schermerhorn2008robot}
+\bibfield{author}{\bibinfo{person}{Paul Schermerhorn},
+  \bibinfo{person}{Matthias Scheutz}, {and} \bibinfo{person}{Charles~R
+  Crowell}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Robot social presence and gender: Do females view
+  robots differently than males?}. In \bibinfo{booktitle}{{\em Proceedings of
+  the 3rd ACM/IEEE international conference on Human robot interaction}}. ACM,
+  \bibinfo{pages}{263--270}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shah, Wiken, Williams, and Breazeal}{Shah
+  et~al\mbox{.}}{2011}]%
+        {shah2011improved}
+\bibfield{author}{\bibinfo{person}{Julie Shah}, \bibinfo{person}{James Wiken},
+  \bibinfo{person}{Brian Williams}, {and} \bibinfo{person}{Cynthia Breazeal}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Improved human-robot team performance using chaski,
+  a human-inspired plan execution system}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 6th international conference on Human-robot interaction}}.
+  ACM, \bibinfo{pages}{29--36}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stewart and Barrick}{Stewart and
+  Barrick}{2000}]%
+        {stewart2000team}
+\bibfield{author}{\bibinfo{person}{Greg~L Stewart} {and}
+  \bibinfo{person}{Murray~R Barrick}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Team structure and performance: Assessing the
+  mediating role of intrateam process and the moderating role of task type}.
+\newblock \bibinfo{journal}{{\em Academy of management Journal\/}}
+  \bibinfo{volume}{43}, \bibinfo{number}{2} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{135--148}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tan, Duan, Zhang, Watanabe, Kato, and
+  Arai}{Tan et~al\mbox{.}}{2009}]%
+        {tan2009human}
+\bibfield{author}{\bibinfo{person}{Jeffrey Too~Chuan Tan},
+  \bibinfo{person}{Feng Duan}, \bibinfo{person}{Ye Zhang}, \bibinfo{person}{Kei
+  Watanabe}, \bibinfo{person}{Ryu Kato}, {and} \bibinfo{person}{Tamio Arai}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Human-robot collaboration in cellular
+  manufacturing: Design and development}. In \bibinfo{booktitle}{{\em IROS
+  2009}}. IEEE, \bibinfo{pages}{29--34}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tsarouchi, Matthaiakis, Makris, and
+  Chryssolouris}{Tsarouchi et~al\mbox{.}}{2017}]%
+        {tsarouchi2017ijcim}
+\bibfield{author}{\bibinfo{person}{Panagiota Tsarouchi},
+  \bibinfo{person}{Alexandros-Stereos Matthaiakis}, \bibinfo{person}{Sotiris
+  Makris}, {and} \bibinfo{person}{George Chryssolouris}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{On a human-robot collaboration in an assembly
+  cell}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Integrated
+  Manufacturing\/}} \bibinfo{volume}{30}, \bibinfo{number}{6}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{580--589}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Van Der~Vegt, Emans, and Van De~Vliert}{Van
+  Der~Vegt et~al\mbox{.}}{1998}]%
+        {van1998motivating}
+\bibfield{author}{\bibinfo{person}{Gerben Van Der~Vegt}, \bibinfo{person}{Ben
+  Emans}, {and} \bibinfo{person}{Evert Van De~Vliert}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Motivating effects of task and outcome
+  interdependence in work teams}.
+\newblock \bibinfo{journal}{{\em Group \& organization management\/}}
+  \bibinfo{volume}{23}, \bibinfo{number}{2} (\bibinfo{year}{1998}),
+  \bibinfo{pages}{124--143}.
+\newblock
+
+
+\end{thebibliography}

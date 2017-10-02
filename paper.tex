@@ -13,7 +13,8 @@
 
 
 \usepackage{booktabs} % For formal tables
-
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 
 % Copyright
 %\setcopyright{none}
@@ -33,9 +34,8 @@
 \acmISBN{123-4567-24-567/08/06}
 
 %Conference
-\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El
-  Paso, Texas USA} 
-\acmYear{1997}
+\acmConference[HRI]{HRI}{March 2018}{Chicago, IL, USA} 
+\acmYear{2018}
 \copyrightyear{2016}
 
 
@@ -44,31 +44,31 @@
 
 % These commands are optional
 %\acmBooktitle{Transactions of the ACM Woodstock conference}
-\editor{Jennifer B. Sartor}
-\editor{Theo D'Hondt}
-\editor{Wolfgang De Meuter}
+%\editor{Jennifer B. Sartor}
+%\editor{Theo D'Hondt}
+%\editor{Wolfgang De Meuter}
 
 
 \begin{document}
 \title{How Task Interdependece And Homogenity Affect Human-Robot Collaboration}
-\titlenote{Produces the permission block, and
-  copyright information}
+%\titlenote{Produces the permission block, and copyright information}
 
 \author{Majid Aksari}
 \affiliation{%
-  \institution{University of Wisconsin-Madison}
+	\institution{Department of Computer Sciences}{University of Wisconsin-Madison}
 }
 \email{majid@cs.wisc.edu}
 
-\author{Other authors}
+\author{Bilge Mutlu}
 \affiliation{%
-  \institution{}
+	\institution{Department of Computer Sciences}{University of Wisconsin-Madison}
 }
-\email{}
+\email{bilge@cs.wisc.edu}
+
 
 
 % The default list of authors is too long for headers.
-\renewcommand{\shortauthors}{B. Trovato et al.}
+\renewcommand{\shortauthors}{M. Aksari et al.}
 
 
 \input{abstract}
@@ -124,6 +124,6 @@
 \input{conclusions}
 
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{paper}
+\bibliography{paper-bib}
 
 \end{document}

@@ -1,0 +1,559 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+@article{peshkin1999cobots,
+  title={Cobots},
+  author={Peshkin, Michael and Colgate, J Edward},
+  journal={Industrial Robot: An International Journal},
+  volume={26},
+  number={5},
+  pages={335--341},
+  year={1999},
+  publisher={MCB UP Ltd}
+}
+
+@inproceedings{tan2009human,
+  title={Human-robot collaboration in cellular manufacturing: Design and development},
+  author={Tan, Jeffrey Too Chuan and Duan, Feng and Zhang, Ye and Watanabe, Kei and Kato, Ryu and Arai, Tamio},
+  booktitle={IROS 2009},
+  pages={29-34},
+  year={2009},
+  organization={IEEE}
+}
+
+
+@inproceedings{shah2011improved,
+  title={Improved human-robot team performance using chaski, a human-inspired plan execution system},
+  author={Shah, Julie and Wiken, James and Williams, Brian and Breazeal, Cynthia},
+  booktitle={Proceedings of the 6th international conference on Human-robot interaction},
+  pages={29-36},
+  year={2011},
+  organization={ACM}
+}
+
+@article{gombolay2014decision,
+  title={Decision-making authority, team efficiency and human worker satisfaction in mixed human--robot teams},
+  author={Gombolay, Matthew C and Gutierrez, Reymundo A and Clarke, Shanelle G and Sturla, Giancarlo F and Shah, Julie A},
+  journal={Autonomous Robots},
+  volume={39},
+  number={3},
+  pages={293--312},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{tsarouchi2017ijcim,
+  title={On a human-robot collaboration in an assembly cell},
+  author={Tsarouchi, Panagiota and Matthaiakis, Alexandros-Stereos and Makris, Sotiris and Chryssolouris, George},
+  journal={International Journal of Computer Integrated Manufacturing},
+  volume={30},
+  number={6},
+  pages={580--589},
+  year={2017},
+  publisher={Taylor \& Francis}
+}
+
+@article{kiggundu1983task,
+  title={Task interdependence and job design: Test of a theory},
+  author={Kiggundu, Moses N},
+  journal={Organizational behavior and human performance},
+  volume={31},
+  number={2},
+  pages={145--172},
+  year={1983},
+  publisher={Elsevier}
+}
+
+@inproceedings{schermerhorn2008robot,
+  title={Robot social presence and gender: Do females view robots differently than males?},
+  author={Schermerhorn, Paul and Scheutz, Matthias and Crowell, Charles R},
+  booktitle={Proceedings of the 3rd ACM/IEEE international conference on Human robot interaction},
+  pages={263--270},
+  year={2008},
+  organization={ACM}
+}
+
+@article{hackman1976motivation,
+  title={Motivation through the design of work: Test of a theory},
+  author={Hackman, J Richard and Oldham, Greg R},
+  journal={Organizational behavior and human performance},
+  volume={16},
+  number={2},
+  pages={250--279},
+  year={1976},
+  publisher={Elsevier}
+}
+
+@article{kiggundu1983task,
+  title={Task interdependence and job design: Test of a theory},
+  author={Kiggundu, Moses N},
+  journal={Organizational behavior and human performance},
+  volume={31},
+  number={2},
+  pages={145--172},
+  year={1983},
+  publisher={Elsevier}
+}
+
+@article{van1998motivating,
+  title={Motivating effects of task and outcome interdependence in work teams},
+  author={Van Der Vegt, Gerben and Emans, Ben and Van De Vliert, Evert},
+  journal={Group \& organization management},
+  volume={23},
+  number={2},
+  pages={124--143},
+  year={1998},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{katz2005collective,
+  title={When collective-and self-efficacy affect team performance: The role of task interdependence},
+  author={Katz-Navon, Tal Y and Erez, Miriam},
+  journal={Small Group Research},
+  volume={36},
+  number={4},
+  pages={437--465},
+  year={2005},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{langfred2005autonomy,
+  title={Autonomy and performance in teams: The multilevel moderating effect of task interdependence},
+  author={Langfred, Claus W},
+  journal={Journal of management},
+  volume={31},
+  number={4},
+  pages={513--529},
+  year={2005},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{liden1997task,
+  title={Task interdependence as a moderator of the relation between group control and performance},
+  author={Liden, Robert C and Wayne, Sandy J and Bradway, Lisa K},
+  journal={Human Relations},
+  volume={50},
+  number={2},
+  pages={169--181},
+  year={1997},
+  publisher={Sage Publications}
+}
+
+@article{espinosa2004explicit,
+  title={Explicit vs. implicit coordination mechanisms and task dependencies: one size does not fit all},
+  author={Espinosa, Alberto and Lerch, F Javier and Kraut, Robert E and Salas, Eduardo and Fiore, Stephen M},
+  journal={Team cognition: understanding the factors that drive process and performance. American Psychological Association, Washington, DC},
+  pages={107--129},
+  year={2004}
+}
+
+
+@article{butchibabu2016implicit,
+  title={Implicit coordination strategies for effective team communication},
+  author={Butchibabu, Abhizna and Sparano-Huiban, Christopher and Sonenberg, Liz and Shah, Julie},
+  journal={Human Factors: The Journal of the Human Factors and Ergonomics Society},
+  volume={58},
+  number={4},
+  pages={595--610},
+  year={2016},
+  publisher={SAGE Publications}
+}
+
+@article{hsieh2004reassessment,
+  title={A reassessment of the relationship between job specialization, job rotation and job burnout: example of Taiwan's high-technology industry},
+  author={Hsieh, An-Tien and Chao, Hui-Yu},
+  journal={The International Journal of Human Resource Management},
+  volume={15},
+  number={6},
+  pages={1108--1123},
+  year={2004},
+  publisher={Taylor \& Francis}
+}
+
+@article{stewart2000team,
+  title={Team structure and performance: Assessing the mediating role of intrateam process and the moderating role of task type},
+  author={Stewart, Greg L and Barrick, Murray R},
+  journal={Academy of management Journal},
+  volume={43},
+  number={2},
+  pages={135--148},
+  year={2000},
+  publisher={Academy of Management}
+}
+
+@article{hinds2004whose,
+  title={Whose job is it anyway? A study of human-robot interaction in a collaborative task},
+  author={Hinds, Pamela J and Roberts, Teresa L and Jones, Hank},
+  journal={Human-Computer Interaction},
+  volume={19},
+  number={1},
+  pages={151--181},
+  year={2004},
+  publisher={L. Erlbaum Associates Inc.}
+}
+
+@inproceedings{goetz2003matching,
+  title={Matching robot appearance and behavior to tasks to improve human-robot cooperation},
+  author={Goetz, Jennifer and Kiesler, Sara and Powers, Aaron},
+  booktitle={Robot and Human Interactive Communication, 2003. Proceedings. ROMAN 2003. The 12th IEEE International Workshop on},
+  pages={55--60},
+  year={2003},
+  organization={Ieee}
+}
+
+@article{johnson2012autonomy,
+  title={Autonomy and interdependence in human-agent-robot teams},
+  author={Johnson, Matthew and Bradshaw, Jeffrey M and Feltovich, Paul and Jonker, Catholijn and van Riemsdijk, Birna and Sierhuis, Maarten},
+  journal={IEEE Intelligent Systems},
+  volume={27},
+  number={2},
+  pages={43--51},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{hinds2004whose,
+  title={Whose job is it anyway? A study of human-robot interaction in a collaborative task},
+  author={Hinds, Pamela J and Roberts, Teresa L and Jones, Hank},
+  journal={Human-Computer Interaction},
+  volume={19},
+  number={1},
+  pages={151--181},
+  year={2004},
+  publisher={L. Erlbaum Associates Inc.}
+}
+
+@article{nikolaidis2012human,
+  title={Human-robot teaming using shared mental models},
+  author={Nikolaidis, Stefanos and Shah, Julie},
+  journal={ACM/IEEE HRI},
+  year={2012},
+  publisher={Citeseer}
+}
+
+@inproceedings{nikolaidis2013human,
+  title={Human-robot cross-training: computational formulation, modeling and evaluation of a human team training strategy},
+  author={Nikolaidis, Stefanos and Shah, Julie},
+  booktitle={Proceedings of the 8th ACM/IEEE international conference on Human-robot interaction},
+  pages={33--40},
+  year={2013},
+  organization={IEEE Press}
+}
+
+
+@article{jarvenpaa1994global,
+  title={The global network organization of the future: Information management opportunities and challenges},
+  author={Jarvenpaa, Sirkka L and Ives, Blake},
+  journal={Journal of management information systems},
+  volume={10},
+  number={4},
+  pages={25--57},
+  year={1994},
+  publisher={Taylor \& Francis}
+}
+
+@article{nass1996can,
+  title={Can computers be teammates?},
+  author={Nass, Clifford and Fogg, BJ and Moon, Youngme},
+  journal={International Journal of Human-Computer Studies},
+  volume={45},
+  number={6},
+  pages={669--678},
+  year={1996},
+  publisher={Elsevier}
+}
+
+@inproceedings{hoffman2007effects,
+  title={Effects of anticipatory action on human-robot teamwork efficiency, fluency, and perception of team},
+  author={Hoffman, Guy and Breazeal, Cynthia},
+  booktitle={Proceedings of the ACM/IEEE international conference on Human-robot interaction},
+  pages={1--8},
+  year={2007},
+  organization={ACM}
+}
+
+@inproceedings{huang2015adaptive,
+  title={Adaptive Coordination Strategies for Human-Robot Handovers.},
+  author={Huang, Chien-Ming and Cakmak, Maya and Mutlu, Bilge},
+  booktitle={Robotics: Science and Systems},
+  year={2015}
+}
+
+@inproceedings{nomura2011exploring,
+  title={Exploring effects of educational backgrounds and gender in human-robot interaction},
+  author={Nomura, Tatsuya and Takagi, Satoru},
+  booktitle={User science and engineering (i-user), 2011 international conference on},
+  pages={24--29},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{schermerhorn2008robot,
+  title={Robot social presence and gender: Do females view robots differently than males?},
+  author={Schermerhorn, Paul and Scheutz, Matthias and Crowell, Charles R},
+  booktitle={Proceedings of the 3rd ACM/IEEE international conference on Human robot interaction},
+  pages={263--270},
+  year={2008},
+  organization={ACM}
+}
+
+@article{miller1973job,
+  title={Job rotation raises productivity},
+  author={Miller, FG and Dhaliwal, TS and Magas, LJ},
+  journal={Industrial Engineering},
+  volume={5},
+  number={6},
+  pages={24--26},
+  year={1973},
+  publisher={INST INDUSTRIAL ENGINEERS 25 TECHNOLOGY PARK/ATLANTA, NORCROSS, GA 30092}
+}
+
+@article{kuijer1999job,
+  title={Job rotation as a factor in reducing physical workload at a refuse collecting department},
+  author={Kuijer, P Paul FM and Visser, Bart and Kemper, Han CG},
+  journal={Ergonomics},
+  volume={42},
+  number={9},
+  pages={1167--1178},
+  year={1999},
+  publisher={Taylor \& Francis}
+}
+
+@article{hart1988development,
+  title={Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research},
+  author={Hart, Sandra G and Staveland, Lowell E},
+  journal={Advances in psychology},
+  volume={52},
+  pages={139--183},
+  year={1988},
+  publisher={Elsevier}
+}
+
+@inproceedings{hart2006nasa,
+  title={NASA-task load index (NASA-TLX); 20 years later},
+  author={Hart, Sandra G},
+  booktitle={Proceedings of the human factors and ergonomics society annual meeting},
+  volume={50},
+  number={9},
+  pages={904--908},
+  year={2006},
+  organization={Sage Publications Sage CA: Los Angeles, CA}
+}
+
+
+
+
