@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{26}
+\begin{thebibliography}{31}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -103,6 +103,29 @@
 \newblock \bibinfo{journal}{{\em Organizational behavior and human
   performance\/}} \bibinfo{volume}{16}, \bibinfo{number}{2}
   (\bibinfo{year}{1976}), \bibinfo{pages}{250--279}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hart}{Hart}{2006}]%
+        {hart2006nasa}
+\bibfield{author}{\bibinfo{person}{Sandra~G Hart}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{NASA-task load index (NASA-TLX); 20 years later}.
+  In \bibinfo{booktitle}{{\em Proceedings of the human factors and ergonomics
+  society annual meeting}}, Vol.~\bibinfo{volume}{50}. Sage Publications Sage
+  CA: Los Angeles, CA, \bibinfo{pages}{904--908}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hart and Staveland}{Hart and
+  Staveland}{1988}]%
+        {hart1988development}
+\bibfield{author}{\bibinfo{person}{Sandra~G Hart} {and}
+  \bibinfo{person}{Lowell~E Staveland}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Development of NASA-TLX (Task Load Index): Results
+  of empirical and theoretical research}.
+\newblock \bibinfo{journal}{{\em Advances in psychology\/}}
+  \bibinfo{volume}{52} (\bibinfo{year}{1988}), \bibinfo{pages}{139--183}.
 \newblock
 
 
@@ -208,6 +231,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Kuijer, Visser, and Kemper}{Kuijer
+  et~al\mbox{.}}{1999}]%
+        {kuijer1999job}
+\bibfield{author}{\bibinfo{person}{P~Paul~FM Kuijer}, \bibinfo{person}{Bart
+  Visser}, {and} \bibinfo{person}{Han~CG Kemper}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Job rotation as a factor in reducing physical
+  workload at a refuse collecting department}.
+\newblock \bibinfo{journal}{{\em Ergonomics\/}} \bibinfo{volume}{42},
+  \bibinfo{number}{9} (\bibinfo{year}{1999}), \bibinfo{pages}{1167--1178}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Langfred}{Langfred}{2005}]%
         {langfred2005autonomy}
 \bibfield{author}{\bibinfo{person}{Claus~W Langfred}.}
@@ -230,6 +266,31 @@
   between group control and performance}.
 \newblock \bibinfo{journal}{{\em Human Relations\/}} \bibinfo{volume}{50},
   \bibinfo{number}{2} (\bibinfo{year}{1997}), \bibinfo{pages}{169--181}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Miller, Dhaliwal, and Magas}{Miller
+  et~al\mbox{.}}{1973}]%
+        {miller1973job}
+\bibfield{author}{\bibinfo{person}{FG Miller}, \bibinfo{person}{TS Dhaliwal},
+  {and} \bibinfo{person}{LJ Magas}.} \bibinfo{year}{1973}\natexlab{}.
+\newblock \showarticletitle{Job rotation raises productivity}.
+\newblock \bibinfo{journal}{{\em Industrial Engineering\/}}
+  \bibinfo{volume}{5}, \bibinfo{number}{6} (\bibinfo{year}{1973}),
+  \bibinfo{pages}{24--26}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mutlu, Osman, Forlizzi, Hodgins, and
+  Kiesler}{Mutlu et~al\mbox{.}}{2006}]%
+        {mutlu2006task}
+\bibfield{author}{\bibinfo{person}{Bilge Mutlu}, \bibinfo{person}{Steven
+  Osman}, \bibinfo{person}{Jodi Forlizzi}, \bibinfo{person}{Jessica Hodgins},
+  {and} \bibinfo{person}{Sara Kiesler}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Task structure and user attributes as elements of
+  human-robot interaction design}. In \bibinfo{booktitle}{{\em Robot and Human
+  Interactive Communication, 2006. ROMAN 2006. The 15th IEEE International
+  Symposium on}}. IEEE, \bibinfo{pages}{74--79}.
 \newblock
 
 
