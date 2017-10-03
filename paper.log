@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 OCT 2017 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 OCT 2017 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,14 +1031,28 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
-
+Overfull \hbox (10.10138pt too wide) in paragraph at lines 16--17
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) while the par-tic-i-pant per-formed kit-tin
+g, re-sult-ing in non-homogeneous
  []
 
-[3.3]
+<condition2.pdf, id=172, 794.97pt x 614.295pt>
+File: condition2.pdf Graphic file (type pdf)
+ <use condition2.pdf>
+Package pdftex.def Info: condition2.pdf used on input line 19.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+Overfull \hbox (553.82057pt too wide) in paragraph at lines 19--21
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.29349pt on input line 22.
+
+[3.3] [4.4 <./condition2.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 31.
+               Default added (so using `tbp') on input line 36.
 
 ) (./results.tex) (./discussion.tex
 Overfull \hbox (2.06989pt too wide) in paragraph at lines 5--1
@@ -1049,30 +1063,32 @@ ce at-ti-tudes to-wards robotic
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [4.4])
-(./limitations.tex [5.5]) (./conclusions.tex) (./paper.bbl
-Underfull \vbox (badness 1270) has occurred while \output is active []
+)
+(./limitations.tex
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [6.6])
-[7.7
+ [5.5])
+(./conclusions.tex) [6.6] (./paper.bbl
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
-]
+) [7.7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
- (./paper.aux)
+
+(./paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 01FDA4A6CAD246035CD7DF129DC95F4C;2964.
+(rerunfilecheck)             Checksum: 70BA99D301E2DDABAF886B7125DC0AFF;2964.
  ) 
 Here is how much of TeX's memory you used:
- 18246 strings out of 492995
- 276820 string characters out of 6132704
- 393409 words of memory out of 5000000
- 20911 multiletter control sequences out of 15000+600000
- 141302 words of font info for 306 fonts, out of 8000000 for 9000
+ 18268 strings out of 492995
+ 277255 string characters out of 6132704
+ 394409 words of memory out of 5000000
+ 20917 multiletter control sequences out of 15000+600000
+ 142496 words of font info for 312 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,14n,94p,2120b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,94p,2120b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/
 usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/u
 sr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/us
@@ -1089,10 +1105,10 @@ rtineTB.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/Li
 nLibertineTI.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/t
 xsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb
 >
-Output written on paper.pdf (7 pages, 453463 bytes).
+Output written on paper.pdf (7 pages, 497613 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 46765 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 46770 words of extra memory for PDF output out of 51595 (max. 10000000)
 
